@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverlappedEventClient", "Ov
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverlappedEventServer", "OverlappedEventServer\OverlappedEventServer.vcxproj", "{ECE56547-2503-4EF4-B610-648789342E37}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverlappedCallbackServer", "OverlappedCallbackServer\OverlappedCallbackServer.vcxproj", "{1F029AE9-A5E8-4929-A247-D97E2B69F568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -177,6 +179,14 @@ Global
 		{ECE56547-2503-4EF4-B610-648789342E37}.Release|x64.Build.0 = Release|x64
 		{ECE56547-2503-4EF4-B610-648789342E37}.Release|x86.ActiveCfg = Release|Win32
 		{ECE56547-2503-4EF4-B610-648789342E37}.Release|x86.Build.0 = Release|Win32
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Debug|x64.ActiveCfg = Debug|x64
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Debug|x64.Build.0 = Debug|x64
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Debug|x86.Build.0 = Debug|Win32
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Release|x64.ActiveCfg = Release|x64
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Release|x64.Build.0 = Release|x64
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Release|x86.ActiveCfg = Release|Win32
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +206,7 @@ Global
 		{C72E7902-B428-48E9-9533-7A6EB8B09122} = {F7F2E8D1-A8F1-4666-A95A-A2DBE253A02D}
 		{B0580130-892C-4DBC-B07E-AF3A4522EEC5} = {989F653C-2645-4409-9D7B-020E335E1EDD}
 		{ECE56547-2503-4EF4-B610-648789342E37} = {989F653C-2645-4409-9D7B-020E335E1EDD}
+		{1F029AE9-A5E8-4929-A247-D97E2B69F568} = {989F653C-2645-4409-9D7B-020E335E1EDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {023B4717-E872-4B4E-90EE-9F89305683EA}
