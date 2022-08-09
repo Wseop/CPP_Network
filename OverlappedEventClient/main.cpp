@@ -73,7 +73,7 @@ void ClientThread(SOCKADDR_IN* serverAddr, int threadId)
 		}
 		cout << threadId << " thread send message" << endl;
 
-		this_thread::sleep_for(1s);
+		this_thread::sleep_for(100ms);
 	}
 }
 
